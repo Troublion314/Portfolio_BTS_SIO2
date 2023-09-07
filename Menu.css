@@ -1,0 +1,136 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Styles de l'en-tête */
+header {
+    background-size: cover;
+    background-color: #333;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.header-content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.header-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Styles de la navigation */
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.ligne-logos {
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    flex-wrap: wrap;
+    margin: 0 auto; /* Ajout de cette ligne */
+}
+
+.cadre {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 120px;
+    text-align: center;
+    margin: 10px;
+}
+
+.logo {
+    max-width: 100px;
+    margin: auto;
+    height: auto;
+}
+
+/* Style d'un projet individuel */
+.projet {
+    max-width: 150px; /* Ajustez la largeur maximale selon vos préférences */
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: inline-block; /* Pour les aligner sur la même ligne */
+    vertical-align: top; /* Alignement en haut */
+}
+
+.projet img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.projet h2 {
+    font-size: 18px; /* Taille de police réduite */
+    margin-bottom: 10px;
+}
+
+.projet p {
+    font-size: 12px; /* Taille de police réduite */
+    margin-bottom: 10px;
+}
+
+.projet a {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+/* Styles des sections */
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+/* Style de la page d'accueil */
+#accueil {
+    background-color: #f2f2f2;
+}
+
+.intro h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Style de la div en bas de la page */
+.bas-de-page {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+

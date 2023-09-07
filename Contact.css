@@ -1,0 +1,100 @@
+/* Style de base pour tout le document */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Couleur de fond de la page */
+}
+
+/* Style de l'en-tête */
+header {
+    background-color: #333; /* Couleur de fond de l'en-tête */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Styles de la navigation */
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* Style du formulaire de contact */
+.contact-form {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Style pour les champs de formulaire */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style pour le bouton d'envoi du formulaire */
+.btn {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style du pied de page */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
