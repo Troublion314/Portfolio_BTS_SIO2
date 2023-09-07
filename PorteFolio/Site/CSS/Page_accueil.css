@@ -1,0 +1,103 @@
+
+
+img {
+  width: auto;
+  height: 70px;
+}
+
+
+.dropdownmenu {					 /*Definir largeur menu principale */
+    background-color: white ;
+    width: 140px; 
+	
+}
+
+
+.dropdownmenu ul {				 /* Pour les sous-menus */
+     list-style-type: none; 
+	 margin: 0px;
+     padding: 0px;
+}
+
+.dropdownmenu ul {   /* masquer les sous-menus pour qu’ils ne soient pas visibles par défaut */
+    display: none;
+}
+
+.dropdownmenu li {				/*permettra de positionner correctement les sous-menus */
+    position: relative;
+}
+
+.dropdownmenu a { 				/*mise en forme des liens du menu*/
+    display: block;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    padding: 3px 10px;
+    text-align: center;
+
+}
+
+.dropdownmenu li:hover ul {		/* mise en forme des sous-menu*/
+    display: block ;
+    position: absolute;
+    top: 0px; 
+    left: 140px; 
+    z-index: 100; 
+	color: red ;
+}
+
+.dropdownmenu ul a {	  /* Changement de l'affichage des liens des sous-menus pour ne pas les afficher en inline-block comme les liens de menu, ils seront donc verticaux */
+
+  display: block;
+  background-color : black;
+}
+
+
+
+			/*============== Gestion des couleurs ================*/ 
+
+.dropdownmenu li {   			/* Couleur d'arriere-plan du menu */
+    background-color: black;   
+}
+
+.dropdownmenu li a {			/* Couleur du texte du menu */ 
+    color: red; 
+} 
+
+.dropdownmenu li:hover {		/* Couleur d'arriere-plan du menu au survol */
+    background-color: yellow;  
+}
+
+.dropdownmenu li:hover a {		/* Couleur du texte du menu au survol */ 
+    color: red; 
+}
+
+.dropdownmenu ul li {			/* Couleur d'arriere-plan des sous-menu */
+    background-color: yellow; 
+}
+
+.dropdownmenu ul li:hover {		/* Couleur d'arriere-plan des sous-menu au survol */
+    background-color: yellow;   
+} 
+
+.dropdownmenu ul li a {			/* Couleur du texte des sous-menu */ 
+    color: red; 
+} 
+
+.dropdownmenu ul li:hover a {   /* Couleur du texte des sous-menu au survol */
+    color: yellow; 
+}
+
+
+
+
+			/*====================== Div ========================*/
+
+.superieur{
+		border: 2px solid;
+		width: 25cm;
+		height : 10cm;
+		border-color : red;	
+		margin: 1px 0px 1px 0px;
+
+}

@@ -1,0 +1,43 @@
+.superieur{
+		border: 2px solid;
+		width: 50cm;
+		height : 11cm;
+		border-color : transparent;	
+		display : flex;
+		margin: 1px 0px 1px 0px;
+
+}
+
+.gauche {
+		border: 2px solid;
+		border-color : transparent;
+		height : 9.4cm;
+		width: 30%;
+		text-align : center;
+		flex-grow : 1;
+		margin: 10px 0px 0px 10px;
+
+}
+
+.droite{
+		border: 2px solid;
+		border-color : transparent;
+		height : 9.4cm;
+		width: 60%;
+		text-align : center;
+		margin: 10px 10px 0px 0px;
+
+
+}
+
+.image1 {
+	width: 14cm;
+	height: 8cm;
+	margin-top: 10px;
+}
+
+.img2 {
+	width: 14cm;
+	height: 8cm;
+
+}
